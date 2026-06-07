@@ -4,7 +4,7 @@
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![Release](https://img.shields.io/github/v/release/dincertekin/eyebreak)
 
-eyebreak is a free Windows app that reminds you to take regular eye breaks while working. It follows the **20-20-20 rule** by default — a short break every 20 minutes and a longer one every 2 hours — but every interval is configurable.
+eyebreak is a free Windows app that reminds you to take regular eye breaks while working. It follows the **20-20-20 rule** by default, a short break every 20 minutes and a longer one every 2 hours, but every interval is configurable.
 
 ## Screenshots
 
@@ -41,7 +41,7 @@ eyebreak is a free Windows app that reminds you to take regular eye breaks while
 
 If the app does not appear in the system tray, your tray may be hiding icons. Go to **Windows Taskbar Settings** and make sure eyebreak is set to always show.
 
-## Building from source
+## Building
 
 ```
 dotnet build eyebreak.sln                                  # build
@@ -51,8 +51,8 @@ dotnet publish -c Release -p:PublishProfile=win-x64        # produce a self-cont
 
 ## Contributing
 
-Contributions are welcome — see [CONTRIBUTING.md](./CONTRIBUTING.md) for how to get started.
+Contributions are welcome. See [CONTRIBUTING.md](./CONTRIBUTING.md) for how to get started.
 
 ## License
 
-MIT License — see [LICENSE](./LICENSE) for details.
+[MIT License](./LICENSE)
